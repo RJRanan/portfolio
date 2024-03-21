@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter", "sans-serif"],
-        leagueSpartan: ["League Spartan", "sans-serif"],
+        arvo: ["Arvo", "sans-serif"],
+        poppins: ["Poppins", " sans-serif"],
       },
       colors: {
         "dark-gray": "#1D1D1D",
