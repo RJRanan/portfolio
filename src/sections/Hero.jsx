@@ -16,7 +16,8 @@ const Hero = () => {
 
   return (
     <section className="max-container  grid max-xl:grid-cols-1 grid-cols-2 gap-16 max-xl:gap-14 justify-center items-center">
-      <div className="flex flex-col my-auto mx-auto ">
+      {/* 1st col  */}
+      <div className="flex flex-col my-auto mx-auto  ">
         <h1 className="mb-4 text-7xl font-bold">
           <Greeting />
         </h1>
@@ -29,7 +30,24 @@ const Hero = () => {
         </h1>
 
         <p className="text-2xl"></p>
+
+        <div className="flex py-8 gap-12">
+          <Button
+            label="Click me"
+            labelColor="text-blue-50"
+            bgColor="bg-blue-600"
+            onClick={() => console.log("Button clicked")}
+          />
+          <Button
+            label="Hire Me!"
+            labelColor="text-blue-50"
+            bgColor="bg-dark-green"
+            onClick={() => console.log("Button clicked")}
+          />
+        </div>
       </div>
+
+      {/* 2nd col */}
       <div className="flex justify-center items-center h-full">
         {" "}
         {showFirstImage ? (
@@ -46,13 +64,6 @@ const Hero = () => {
           />
         )}
       </div>
-
-      <Button
-        label="Click me"
-        labelColor="blue-500"
-        bgColor="bg-gray-800"
-        onClick={() => console.log("Button clicked")}
-      />
     </section>
   );
 };
