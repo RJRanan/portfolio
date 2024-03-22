@@ -34,7 +34,7 @@ const Nav = () => {
         </nav>
 
         <button className="mt-4 sm:mt-0 border-2 border-black text-black h-8 w-32 rounded-md hover:text-white hover:bg-black animate-pulse">
-          Download CV
+          let&apos;s connect
         </button>
       </div>
     </header>

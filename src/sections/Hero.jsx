@@ -36,7 +36,7 @@ const Hero = () => {
           <img
             src="https://ih1.redbubble.net/image.4103026770.3452/st,small,845x845-pad,1000x1000,f8f8f8.jpg"
             alt="profile"
-            className="h-full w-auto rounded-3xl"
+            className="w-3/6 object-contain rounded-lg"
           />
         ) : (
           <img
@@ -47,7 +47,12 @@ const Hero = () => {
         )}
       </div>
 
-      <Button />
+      <Button
+        label="Click me"
+        labelColor="blue-500"
+        bgColor="bg-gray-800"
+        onClick={() => console.log("Button clicked")}
+      />
     </section>
   );
 };
