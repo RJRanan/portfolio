@@ -1,8 +1,9 @@
 import profile from "../assets/images/me.jpg";
 import Greeting from "../scripts/Greeting";
 import { useState, useEffect } from "react";
-import Button from "../components/Button";
-import { emailWhite, githubWhite, linkedinWhite } from "../assets/icons";
+import emailWhite from "../assets/icons/emailWhite.png";
+import githubWhite from "../assets/icons/githubWhite.png";
+import linkedinWhite from "../assets/icons/linkedinWhite.png";
 
 const Hero = () => {
   // const [showFirstImage, setShowFirstImage] = useState(true);
@@ -16,34 +17,36 @@ const Hero = () => {
   // }, []);
 
   return (
-    <section className="flex justify-center bg-slate-100">
-      <div className="md:w-3/6  grid grid-cols-2 grid-rows-3">
-        <div className="col-span-2 row-span-1">
-          <button>Available</button>
+    <section className="flex flex-col md:flex-row items-center justify-center px-8 md:gap-30 lg:gap-40 gap-6 w-full ">
+      <div className="flex flex-col items-center md:items-start gap-4">
+        <div className="text-center  md:text-left md:text-4xl sm:text-3xl text-2xl">
+          <Greeting />
+          <p>I&apos;m Renz 👋🏻</p>
+          <p className="text-[#627254] md:text-2xl text-lg">
+            {"<"} Front - End Developer {"/>"}
+          </p>
         </div>
-        <div className="mx-auto px-12 col-span-3 row-span-2 md:col-span-1 text-4xl ">
-          <div className="font-bold font-poppins w-full">
-            {" "}
-            <Greeting />
-            <p className="">I&apos;m Renz 👋🏻</p>
-            <p className="font-arvo text-lg mt-3  ">
-              {"<"} Front - End Developer {"/>"}
-            </p>
-            <div>
-              <Button iconUrl={githubWhite} />
-              <Button iconUrl={linkedinWhite} />
-              <Button iconUrl={emailWhite} />
-            </div>
-          </div>
+        <div className="flex gap-2">
+          <button className="flex items-center justify-center bg-[#363636] border rounded-full px-3 py-2 text-xs text-white font-poppins">
+            <img src={githubWhite} className="w-4 h-4 mr-2" alt="" />
+            GitHub
+          </button>
+          <button className="flex items-center justify-center bg-[#363636] border rounded-full px-3 py-2 text-xs text-white font-poppins">
+            <img src={linkedinWhite} className="w-4 h-4 mr-2" alt="" />
+            LinkedIn
+          </button>
+          <button className="flex items-center justify-center bg-[#363636] border rounded-full px-3 py-2 text-xs text-white font-poppins">
+            <img src={emailWhite} className="w-4 h-4 mr-2" alt="" />
+            Email
+          </button>
         </div>
-
-        <div className="mx-auto row-span-2 col-span-2 md:col-span-1">
-          <img
-            src={profile}
-            alt="profile"
-            className="w-32 h-32 object-fill   rounded-full"
-          />
-        </div>
+      </div>
+      <div className="order-first md:order-last md:ml-16">
+        <img
+          src={profile}
+          alt="profile"
+          className="w-32 h-32 md:w-28 md:h-28 rounded-full object-cover"
+        />
       </div>
     </section>
   );

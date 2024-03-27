@@ -13,7 +13,7 @@ const Nav = () => {
         {/* logo */}
         <div className="flex items-center">
           <a href="/" className="">
-            <h1 className="font-bold md:text-3xl text-3xl font-arvo">
+            <h1 className="font-bold md:text-3xl text-2xl mr-4 font-arvo">
               {"<"}RJRR {"/ >"}
             </h1>
           </a>

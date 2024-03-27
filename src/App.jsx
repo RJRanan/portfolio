@@ -9,10 +9,7 @@ function App() {
     <>
       <main className="relative">
         <Nav />
-        <section
-          id="home"
-          className="sm:px-24 px-5 sm:pb-20 pb-10 sm:pt-32 pt-28 min-h-full"
-        >
+        <section className="sm:px-24 px-5 sm:pb-20 pb-10 sm:pt-32 pt-28">
           <Hero />
         </section>
       </main>
