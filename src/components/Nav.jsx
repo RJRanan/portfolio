@@ -3,7 +3,7 @@ import { navLinks } from "../constants";
 const Nav = () => {
   return (
     <header className="w-full sm:px-24 px-5 sm:py-3 py-3 fixed bg-opacity-50 backdrop-blur-md shadow-md">
-      <div className="max-container flex flex-col sm:flex-row justify-around items-center relative">
+      <div className="min-w-max bg-orange-600 flex  sm:flex-row justify-around items-center relative">
         <a href="/" className="mb-4 sm:mb-0">
           <h1 className="font-bold text-3xl flex items-center ">
             <span className="font-poppins">&lt;</span> &nbsp; RJRR&nbsp;
