@@ -2,67 +2,48 @@ import profile from "../assets/images/me.jpg";
 import Greeting from "../scripts/Greeting";
 import { useState, useEffect } from "react";
 import Button from "../components/Button";
+import { emailWhite, githubWhite, linkedinWhite } from "../assets/icons";
 
 const Hero = () => {
-  const [showFirstImage, setShowFirstImage] = useState(true);
+  // const [showFirstImage, setShowFirstImage] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowFirstImage(false);
-    }, 3000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setShowFirstImage(false);
+  //   }, 3000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   return (
-    <section className=" grid max-xl:grid-cols-1 grid-cols-2 gap-16 max-xl:gap-14 justify-center items-center">
-      {/* 1st col  */}
-      <div className="flex flex-col my-auto mx-auto  ">
-        <h1 className="mb-4 text-7xl font-bold">
-          <Greeting />
-        </h1>
-
-        <h1 className="text-5xl font-poppins leading-relaxed">
-          I&apos;m Renz Jestoni Ranan
-          <span className="text-2xl text-lime-900 block">
-            Front-End Developer
-          </span>
-        </h1>
-
-        <p className="text-2xl"></p>
-
-        <div className="flex py-8 gap-12">
-          <Button
-            label="Click me"
-            labelColor="text-blue-50"
-            bgColor="bg-blue-600"
-            onClick={() => console.log("Button clicked")}
-          />
-          <Button
-            label="Hire Me!"
-            labelColor="text-blue-50"
-            bgColor="bg-dark-green"
-            onClick={() => console.log("Button clicked")}
-          />
+    <section className="flex justify-center bg-slate-100">
+      <div className="md:w-3/6  grid grid-cols-2 grid-rows-3">
+        <div className="col-span-2 row-span-1">
+          <button>Available</button>
         </div>
-      </div>
+        <div className="mx-auto px-12 col-span-3 row-span-2 md:col-span-1 text-4xl ">
+          <div className="font-bold font-poppins w-full">
+            {" "}
+            <Greeting />
+            <p className="">I&apos;m Renz 👋🏻</p>
+            <p className="font-arvo text-lg mt-3  ">
+              {"<"} Front - End Developer {"/>"}
+            </p>
+            <div>
+              <Button iconUrl={githubWhite} />
+              <Button iconUrl={linkedinWhite} />
+              <Button iconUrl={emailWhite} />
+            </div>
+          </div>
+        </div>
 
-      {/* 2nd col */}
-      <div className="flex justify-center items-center h-full">
-        {" "}
-        {showFirstImage ? (
-          <img
-            src="https://ih1.redbubble.net/image.4103026770.3452/st,small,845x845-pad,1000x1000,f8f8f8.jpg"
-            alt="profile"
-            className="w-3/6 object-contain rounded-lg"
-          />
-        ) : (
+        <div className="mx-auto row-span-2 col-span-2 md:col-span-1">
           <img
             src={profile}
             alt="profile"
-            className="w-3/6 object-contain rounded-lg"
+            className="w-32 h-32 object-fill   rounded-full"
           />
-        )}
+        </div>
       </div>
     </section>
   );

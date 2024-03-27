@@ -8,6 +8,9 @@ const Button = ({
   paddingX,
   animation,
   onClick,
+  iconUrl,
+  iconWidth,
+  iconHeight,
 }) => {
   return (
     <button
@@ -17,6 +20,7 @@ const Button = ({
         paddingY ? paddingY : "py-[9px]"
       } ${paddingX ? paddingX : "px-[26px]"}  `}
     >
+      <img src={iconUrl} width={iconWidth} height={iconHeight} />
       {label}
     </button>
   );
