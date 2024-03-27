@@ -15,7 +15,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="max-container  grid max-xl:grid-cols-1 grid-cols-2 gap-16 max-xl:gap-14 justify-center items-center">
+    <section className=" grid max-xl:grid-cols-1 grid-cols-2 gap-16 max-xl:gap-14 justify-center items-center">
       {/* 1st col  */}
       <div className="flex flex-col my-auto mx-auto  ">
         <h1 className="mb-4 text-7xl font-bold">

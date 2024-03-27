@@ -3,18 +3,19 @@ const Button = ({
   label,
   labelColor,
   bgColor,
-  // paddingX,
-  // paddingY,
-  // iconURL,
-  // iconHeight,
-  // iconWidth,
+  border,
+  paddingY,
+  paddingX,
+  animation,
   onClick,
 }) => {
   return (
     <button
       type="button"
       onClick={onClick}
-      className={`${labelColor} ${bgColor} ${bgColor} flex justify-center items-center  text-base  border border-1 rounded-lg py-2 px-8  `}
+      className={`${labelColor} ${bgColor} ${bgColor} ${border}  ${animation}  flex font-poppins items-center  text-base  border border-1 rounded-lg ${
+        paddingY ? paddingY : "py-[9px]"
+      } ${paddingX ? paddingX : "px-[26px]"}  `}
     >
       {label}
     </button>
