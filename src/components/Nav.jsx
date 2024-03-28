@@ -13,44 +13,53 @@ const Nav = () => {
         {/* logo */}
         <div className="flex items-center">
           <a href="/" className="">
-            <h1 className="font-bold md:text-3xl text-2xl mr-4 font-arvo">
+            <h1
+              className={`font-bold md:text-2xl   text-2xl mr-4 font-arvo  ${
+                open
+                  ? "absolute top-20 left-0 w-full md:w-auto md:static md:z-auto z-50 shadow-md"
+                  : "hidden md:flex"
+              } transition-all duration-500 ease-in pl-9`}
+            >
               {"<"}RJRR {"/ >"}
             </h1>
           </a>
         </div>
 
         {/* links */}
-        <ul
-          className={`md:flex gap-4 md:items-center md:pb-0 pb-2 bg-white ${
-            open
-              ? "absolute top-20 left-0 w-full md:w-auto md:static md:z-auto z-50"
-              : "hidden md:flex"
-          } transition-all duration-500 ease-in pl-9`}
-        >
-          {navLinks.map((link) => (
-            <li
-              key={link.label}
-              className="md:text-base font-poppins font-bold md:my-0 my-7"
-            >
-              <a
-                key={link.id}
-                href={link.href}
-                rel={link.rel}
-                target={link.target}
-                className="hover:text-indigo-300 duration-500"
+        <div className="item-center flex">
+          <ul
+            className={`md:flex gap-4 md:items-center md:pb-0 pb-2 bg-white ${
+              open
+                ? "absolute top-20 left-0 w-full md:w-auto md:static md:z-auto z-50 shadow-md"
+                : "hidden md:flex"
+            } transition-all duration-500 ease-in pl-9`}
+          >
+            {navLinks.map((link) => (
+              <li
+                key={link.label}
+                className="md:text-base font-poppins font-bold md:my-0 my-7"
               >
-                {"{ "}
-                {link.label}
-                {" }  "}
-              </a>
-            </li>
-          ))}
-        </ul>
+                <a
+                  key={link.id}
+                  href={link.href}
+                  rel={link.rel}
+                  target={link.target}
+                  className="hover:text-indigo-300 duration-500"
+                >
+                  {"{ "}
+                  {link.label}
+                  {" }  "}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
         <div className="flex">
           <Buttons
             label={"☀️"}
             bgColor={"bg-transparent"}
             border={"border-0"}
+            paddingX={"px-2"}
           />
           {/* Burger menu */}
           <div
