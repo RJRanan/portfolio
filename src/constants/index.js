@@ -37,7 +37,28 @@ export const info = [
   {
     id: "2",
     title: "Skills 📚",
-    info: "{ “ Hi!, I’m Renz Jestoni Ranan a Computer Science graduate from the Philippines. Since the time  I was introduced in web development,  I've been excited to discover more. I'm really keen on understanding it better and getting better at it. ” }",
+    info: "",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery",
+      "React",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Vite",
+      "Postman API",
+      "C#",
+      "Java",
+      "Linux",
+      "GitHub",
+      "Git",
+    ],
+  },
+
+  {
+    id: "3",
+    title: "Interest ⏰",
   },
 ];
 

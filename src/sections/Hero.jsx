@@ -17,7 +17,7 @@ const Hero = () => {
               Available
             </div>
           </div>
-          <div className="text-left sm:text-3xl   text-[23px] font-bold ease-in duration-300">
+          <div className="text-left sm:text-3xl   text-[27px] font-bold ease-in duration-300">
             <Greeting />
             <p>I&apos;m Renz 👋🏻</p>
             <p className="text-[#627254] sm:text-xl mobile:text-lg text-base font-normal ease-in duration-300 ">
@@ -26,7 +26,10 @@ const Hero = () => {
           </div>
           {/* socials */}
           <div className="flex gap-2 my-2">
-            <button className="flex items-center justify-center bg-[#363636] border rounded-full sm:px-3 sm:py-3 px-3 py-1 sm:text-xs text-[10px] text-white font-poppins ease-in duration-300 hover:animate-bounce hover:duration-500">
+            <button
+              className="flex items-center justify-between
+             bg-[#363636] border rounded-full sm:px-3 sm:py-3 px-3 py-1 sm:text-xs text-[10px] text-white font-poppins ease-in duration-300 hover:animate-bounce hover:duration-500"
+            >
               <img
                 src={githubWhite}
                 className="sm:w-4 sm:h-4 sm:mr-2 w-3 h-3 mr-1"
@@ -65,14 +68,14 @@ const Hero = () => {
       <div className="flex flex-col justify-center  sm:items-start gap-4 w-full max-w-[494px]">
         {/* introduction */}
         <div className="text-justify sm:text-[17px] text-sm font-poppins">
-          <p>
-            {'{ "'}Hi, I&apos;m{" "}
+          <p className="leading-6">
+            {'{ " '}Hi, I&apos;m{" "}
             <span className="text-[#627254] font-bold">Renz Jestoni Ranan</span>{" "}
             a Computer Science graduate from the Philippines. Since the time I
             was introduced in Web Development, I&apos;ve been excited to learn
             more about it. I&apos;m really keen on understanding it better and
             getting better at it.
-            {'" }'}
+            {' " }'}
           </p>
         </div>
       </div>

@@ -13,7 +13,7 @@ function App() {
           <Nav />
         </section>
 
-        <section className="py-10 px-4   pt-48">
+        <section className="py-10 px-4   pt-32">
           <Hero />
         </section>
 
