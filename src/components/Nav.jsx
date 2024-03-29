@@ -37,14 +37,14 @@ const Nav = () => {
             {navLinks.map((link) => (
               <li
                 key={link.label}
-                className="md:text-base font-poppins font-bold md:my-0 my-7"
+                className="md:text-base font-poppins font-bold md:my-0 my-7 "
               >
                 <a
                   key={link.id}
                   href={link.href}
                   rel={link.rel}
                   target={link.target}
-                  className="hover:text-indigo-300 duration-500"
+                  className="hover:text-[#627254] duration-500"
                 >
                   {"{ "}
                   {link.label}
@@ -75,15 +75,15 @@ const Nav = () => {
         </div>
 
         {/* Connect button */}
-        <div className="hidden md:flex gap-2 items-center">
+        <div className="hidden md:flex gap-2 items-center cursor-pointer ">
           <Buttons
             label={"let's connect"}
             labelColor={"text-white"}
             bgColor={"bg-black"}
             border={"border-black"}
-            animation={"animate-pulse"}
             paddingX={"px-2"}
             paddingY={"py-2"}
+            animation={"hover:ease-out duration:-200"}
           />
         </div>
       </div>

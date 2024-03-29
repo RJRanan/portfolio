@@ -11,6 +11,9 @@ export default {
         "dark-green": "#627254",
         "dark-red": "#890000",
       },
+      screens: {
+        mobile: "375px",
+      },
     },
   },
   plugins: [],

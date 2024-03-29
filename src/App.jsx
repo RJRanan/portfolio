@@ -9,12 +9,15 @@ function App() {
   return (
     <>
       <main className="relative">
-        <Nav />
-        <section className="sm:px-24 px-5 sm:pb-20 pb-10 sm:pt-48 pt-32">
+        <section className="px-4">
+          <Nav />
+        </section>
+
+        <section className="py-10 px-4   pt-48">
           <Hero />
         </section>
 
-        <section className="sm:px-24 px-5 sm:pb-20 pb-10 sm:pt-48 pt-32">
+        <section className="px-4 ">
           <About />
         </section>
       </main>
