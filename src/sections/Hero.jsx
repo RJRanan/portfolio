@@ -56,11 +56,11 @@ const Hero = () => {
           </div>
         </div>
         {/* profile */}
-        <div className="order-last flex justify-center transition hover:scale-125 items-center w-[65px] mobile:w-20 sm:w-28 h-[65px] mobile:h-20 sm:h-28   rounded-full mt-10 ease-in ">
+        <div className="order-last flex justify-center transition hover:scale-125 items-center w-[70px] mobile:w-[75px] sm:w-28 h-[70px] mobile:h-[75px] sm:h-28   rounded-full mt-10 ease-in ">
           <img
             src={profile}
             alt="profile"
-            className="justify-end items-end w-[65px] mobile:w-[75px] sm:w-28 h-[65px] mobile:h-[75px]  sm:h-28 rounded-full object-cover ease-in "
+            className="justify-end items-end w-[70px] mobile:w-[75px] sm:w-28 h-[70px] mobile:h-[75px]  sm:h-28 rounded-full object-cover ease-in "
           />
         </div>
       </div>
