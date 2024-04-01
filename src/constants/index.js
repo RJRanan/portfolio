@@ -28,7 +28,7 @@ export const info = [
     title: "Education 🎓",
     info: "{ “ Hi!, I’m Renz Jestoni Ranan a Computer Science graduate from the Philippines. Since the time  I was introduced in web development,  I've been excited to discover more. I'm really keen on understanding it better and getting better at it. ” }",
     school: "STI College Ortigas - Cainta",
-    course: "B.S Computer Science",
+    course: "< B.S Computer Science />",
     date: "2019 - 2023",
     bullet: [
       // "Magna Cum Laude",
@@ -42,12 +42,12 @@ export const info = [
     title: "Experience 💼",
     info: "Leveraged a versatile skillset to contribute to both front-end and back-end website development, utilizing a dynamic tech stack inclusive of Java",
     company: "Podcast Network Asia",
-    position: "Developer Intern",
+    position: "< Developer Intern />",
     date: "08/2022 - 10/2022",
     content: [
       "Designed a user-friendly subscription page and seamlessly integrated essential web API connections for enhanced functionality",
-      "Implemented front-end features to improve user experience.",
       "Leveraged a versatile skillset to contribute to both front-end and back-end website development, utilizing a dynamic tech stack inclusive of JavaScript, React, Tailwind CSS and Postman API.",
+      "Implemented front-end features to improve user experience.",
       "Developed interactive elements for the user interface, including buttons, forms, menus, and navigation bars.",
     ],
   },

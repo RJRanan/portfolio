@@ -15,22 +15,38 @@ const About = () => {
                 {link.title}
               </h2>
 
-              <div className="flex flex-row justify-between">
-                <p className="text-justify sm:text-[18px] text-[15px] font-semibold leading-7 font-poppins">
-                  {link.school}
-                  {link.company}
-                </p>
-                <p className="mt-2 sm:text-base text-[12px] flex items-start justify-start ">
-                  {link.date}
-                </p>
+              <div className="  ">
+                <div className="flex flex-row justify-between item-center">
+                  <p className="text-justify sm:text-[18px] text-[15px] tracking-tight font-semibold leading-7 font-poppins ease-in duration-300">
+                    {" "}
+                    {link.school}
+                    {link.company}
+                  </p>
+                  <div className="flex items-end justify-end">
+                    <p className="mt-2 sm:text-base text-[14px] tracking-tighter flex items-start justify-start  ease-in duration-300">
+                      {link.date}
+                    </p>
+                  </div>
+                </div>
               </div>
-              <p className="text-justify sm:text-[15px] text-[12px] text-[#627254] italic leading-7 font-poppins">
+              <p className="text-justify sm:text-[15px] text-[14px] text-[#627254] italic leading-7 font-poppins">
                 {link.course}
                 {link.position}
               </p>
 
+              {link.id === "1" && (
+                <div className="grid grid-cols-1 grid-rows-1 mt-8 tracking-wide mobile:text-base font-poppins text-justify text-[14px] ease-in duration-300">
+                  {link.content.map((content, index) => (
+                    <div key={index} className="leading-8 ">
+                      <img src={subtractBlack} className="h-5 w-4" alt="" />
+                      {content}
+                    </div>
+                  ))}
+                </div>
+              )}
+
               {link.id === "3" && (
-                <div className="grid grid-cols-3 gap-3 mobile:base text-[14px]">
+                <div className="grid grid-cols-3 gap-3 mobile:text-base text-[14px] ease-in duration-300">
                   {link.interest.map((hobby, index) => (
                     <div key={index} className="gap-2">
                       {" "}
@@ -41,7 +57,7 @@ const About = () => {
                 </div>
               )}
               {link.id === "2" && (
-                <div className="grid grid-cols-3 gap-3 mobile:base text-[14px]">
+                <div className="grid grid-cols-3 gap-3 mobile:text-base text-wrap text-[14px] ease-in duration-300">
                   {link.skills.map((skill, index) => (
                     <div key={index} className=" gap-2">
                       {" "}

@@ -20,12 +20,12 @@ const Hero = () => {
           <div className="text-left mobile:text-[28px]   text-[22px]  font-bold ease-in duration-300">
             <Greeting />
             <p>I&apos;m Renz 👋🏻</p>
-            <p className="text-[#627254] mobile:text-xl text-base font-normal ease-in duration-300 ">
+            <p className="text-[#627254] mobile:text-xl mt-4 text-base font-normal ease-in duration-300 ">
               {"<"} Front - End Developer {"/>"}
             </p>
           </div>
           {/* socials */}
-          <div className="flex gap-2 my-2">
+          <div className="flex gap-2 my-8">
             <button
               className="flex items-center justify-between
              bg-[#363636] border rounded-full mobile:px-3 mobile:py-3 px-3 py-1 mobile:text-xs text-[10px] text-white font-poppins ease-in duration-300 hover:animate-bounce hover:duration-200"
@@ -87,15 +87,15 @@ const Hero = () => {
 
       <div className="flex flex-col justify-center  sm:items-start gap-4 w-full max-w-[494px]">
         {/* introduction */}
-        <div className="text-justify sm:text-[17px] text-sm font-poppins">
+        <div className="text-justify sm:text-[17px] text-base tracking-wide font-poppins">
           <p className="leading-6">
-            {'{ " '}Hi, I&apos;m{" "}
+            {'{"'}Hi, I&apos;m{" "}
             <span className="text-[#627254] font-bold">Renz Jestoni Ranan</span>{" "}
             a Computer Science graduate from the Philippines. Since the time I
             was introduced in Web Development, I&apos;ve been excited to learn
             more about it. I&apos;m really keen on understanding it better and
             getting better at it.
-            {' " }'}
+            {'"}'}
           </p>
         </div>
       </div>

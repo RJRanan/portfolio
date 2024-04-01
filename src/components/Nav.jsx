@@ -30,7 +30,7 @@ const Nav = () => {
           <ul
             className={`md:flex gap-4 md:items-center md:justify-center md:pb-0  pb-2  ${
               open
-                ? "absolute top-[73px] left-0 bg-white w-full md:pl-0 pl-6 md:w-auto md:static md:z-auto z-50 shadow-md"
+                ? "absolute top-[73px] left-0 bg-white w-full sm:pl-0  pl-5 md:w-auto md:static md:z-auto z-50 shadow-md"
                 : "hidden md:flex "
             } transition-all duration-500 ease-in `}
           >
