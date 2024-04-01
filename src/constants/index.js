@@ -28,7 +28,7 @@ export const info = [
     title: "Education 🎓",
     info: "{ “ Hi!, I’m Renz Jestoni Ranan a Computer Science graduate from the Philippines. Since the time  I was introduced in web development,  I've been excited to discover more. I'm really keen on understanding it better and getting better at it. ” }",
     school: "STI College Ortigas - Cainta",
-    course: "Bachelor of Science in Computer Science",
+    course: "B.S Computer Science",
     date: "2019 - 2023",
     bullet: [
       // "Magna Cum Laude",
