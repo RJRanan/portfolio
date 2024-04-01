@@ -8,7 +8,7 @@ const About = () => {
         <div>
           <h1 className="text-3xl font-bold">About Me 👨🏻‍💻</h1>
         </div>
-        <div className="flex flex-col gap-4 ">
+        <div className="flex flex-col gap-4 mt-10 ">
           {info.map((link) => (
             <div key={link.id}>
               <h2 className="font-thin text-xl flex flex-col items-end justify-end py-3 ">
