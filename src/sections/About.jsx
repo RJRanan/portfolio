@@ -20,15 +20,17 @@ const About = () => {
                   {link.school}
                   {link.company}
                 </p>
-                <p className="mt-2 text-base ">{link.date}</p>
+                <p className="mt-2 sm:text-base text-[12px] flex items-start justify-start ">
+                  {link.date}
+                </p>
               </div>
-              <p className="text-justify sm:text-[15px] text-[10px] text-[#627254] italic leading-7 font-poppins">
+              <p className="text-justify sm:text-[15px] text-[12px] text-[#627254] italic leading-7 font-poppins">
                 {link.course}
                 {link.position}
               </p>
 
               {link.id === "3" && (
-                <div className="grid grid-cols-3 gap-3 mobile:base text-[15px]">
+                <div className="grid grid-cols-3 gap-3 mobile:base text-[14px]">
                   {link.interest.map((hobby, index) => (
                     <div key={index} className="gap-2">
                       {" "}
@@ -39,7 +41,7 @@ const About = () => {
                 </div>
               )}
               {link.id === "2" && (
-                <div className="grid grid-cols-3 gap-3 mobile:base text-[15px]">
+                <div className="grid grid-cols-3 gap-3 mobile:base text-[14px]">
                   {link.skills.map((skill, index) => (
                     <div key={index} className=" gap-2">
                       {" "}
