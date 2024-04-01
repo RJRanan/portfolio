@@ -3,7 +3,6 @@ import Greeting from "../scripts/Greeting";
 import emailWhite from "../assets/icons/emailWhite.png";
 import githubWhite from "../assets/icons/githubWhite.png";
 import linkedinWhite from "../assets/icons/linkedinWhite.png";
-import subtractBlack from "../assets/icons/subtractBlack.png";
 
 const Hero = () => {
   return (
