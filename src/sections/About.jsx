@@ -2,7 +2,7 @@ import { info } from "../constants";
 
 const About = () => {
   return (
-    <div className="flex justify-center  items-center mx-auto">
+    <div className="flex justify-center  items-center mx-auto my-12">
       <div className=" flex flex-col gap-4  max-w-[494px]   mt-5">
         <div>
           <h1 className="text-3xl font-bold">About Me 👨🏻‍💻</h1>
@@ -16,7 +16,9 @@ const About = () => {
               <p className="text-justify sm:text-[18px] text-[15px] leading-7 font-poppins">
                 {link.info}
               </p>
-              <ul></ul>
+              <ul>
+                <li></li>
+              </ul>
             </div>
           ))}
         </div>

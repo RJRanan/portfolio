@@ -58,7 +58,18 @@ export const info = [
 
   {
     id: "3",
-    title: "Interest ⏰",
+    title: "Hobbies 💡",
+    info: "",
+    interest: [
+      "Reading",
+      "Music",
+      "Singing",
+      "Gaming",
+      "Photography",
+      "Watching Tv-series",
+      "Cooking",
+      "Listening Podcast",
+    ],
   },
 ];
 

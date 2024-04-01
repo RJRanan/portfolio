@@ -8,7 +8,7 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full fixed top-0 left-0 flex justify-center bg-opacity-50 backdrop-blur-md shadow-md">
+    <header className="w-full fixed top-0 left-0 flex justify-center  md:bg-opacity-50 bg-white backdrop-blur-md shadow-md">
       <div className="md:flex md:w-max	w-full items-center gap-2 flex justify-between py-4 md:px-10 px-12">
         {/* logo */}
         <div className="flex items-center">
@@ -28,10 +28,10 @@ const Nav = () => {
         {/* links */}
         <div className="item-center flex">
           <ul
-            className={`md:flex gap-4 md:items-center md:pb-0 pb-2 bg-white ${
+            className={`md:flex gap-4 md:items-center md:pb-0 pb-2  ${
               open
-                ? "absolute top-20 left-0 w-full md:w-auto md:static md:z-auto z-50 shadow-md"
-                : "hidden md:flex"
+                ? "absolute top-[73px] left-0 bg-white w-full md:w-auto md:static md:z-auto z-50 shadow-md"
+                : "hidden md:flex "
             } transition-all duration-500 ease-in pl-9`}
           >
             {navLinks.map((link) => (
@@ -44,7 +44,7 @@ const Nav = () => {
                   href={link.href}
                   rel={link.rel}
                   target={link.target}
-                  className="hover:text-[#627254] duration-500"
+                  className="hover:text-[#627254] hover:italic duration-300"
                 >
                   {"{ "}
                   {link.label}

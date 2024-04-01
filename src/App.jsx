@@ -12,12 +12,13 @@ function App() {
         <section className="px-4">
           <Nav />
         </section>
-
         <section className="py-10 px-4   pt-32">
           <Hero />
         </section>
 
-        <section className="px-4 ">
+        <hr className="" />
+
+        <section className="py-10 px-4   pt-10 ">
           <About />
         </section>
       </main>
