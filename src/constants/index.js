@@ -1,9 +1,9 @@
 export const navLinks = [
-  // {
-  //   id: "0. ",
-  //   href: "#home",
-  //   label: "home",
-  // },
+  {
+    id: "0. ",
+    href: "#home",
+    label: "home",
+  },
 
   {
     id: "1. ",
@@ -27,12 +27,29 @@ export const info = [
     id: "0",
     title: "Education 🎓",
     info: "{ “ Hi!, I’m Renz Jestoni Ranan a Computer Science graduate from the Philippines. Since the time  I was introduced in web development,  I've been excited to discover more. I'm really keen on understanding it better and getting better at it. ” }",
+    school: "STI College Ortigas - Cainta",
+    course: "Bachelor of Science in Computer Science",
+    date: "2019 - 2023",
+    bullet: [
+      // "Magna Cum Laude",
+      // "President Lister",
+      "Thesis Project: Eterna Garden: The Vegetables & Fruits Monster World",
+    ],
   },
 
   {
     id: "1",
     title: "Experience 💼",
-    info: "{ “ Hi!, I’m Renz Jestoni Ranan a Computer Science graduate from the Philippines. Since the time  I was introduced in web development,  I've been excited to discover more. I'm really keen on understanding it better and getting better at it. ” }",
+    info: "Leveraged a versatile skillset to contribute to both front-end and back-end website development, utilizing a dynamic tech stack inclusive of Java",
+    company: "Podcast Network Asia",
+    position: "Developer Intern",
+    date: "August 2022 - October 2022",
+    content: [
+      "Designed a user-friendly subscription page and seamlessly integrated essential web API connections for enhanced functionality",
+      "Implemented front-end features to improve user experience.",
+      "Leveraged a versatile skillset to contribute to both front-end and back-end website development, utilizing a dynamic tech stack inclusive of JavaScript, React, Tailwind CSS and Postman API.",
+      "Developed interactive elements for the user interface, including buttons, forms, menus, and navigation bars.",
+    ],
   },
   {
     id: "2",
@@ -63,7 +80,7 @@ export const info = [
     interest: [
       "Reading",
       "Music",
-      "Singing",
+      "Trading",
       "Gaming",
       "Photography",
       "Watching Tv-series",
