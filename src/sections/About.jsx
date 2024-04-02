@@ -1,5 +1,5 @@
 import { info } from "../constants";
-import subtractBlack from "../assets/icons/subtractBlack.png";
+import { subtractBlack } from "../assets/icons";
 
 const About = () => {
   return (

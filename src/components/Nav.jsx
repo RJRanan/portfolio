@@ -1,7 +1,7 @@
 import { navLinks } from "../constants";
 import Buttons from "./Button";
-import burgerBlack from "../assets/icons/burgerBlack.png";
-import closeBlack from "../assets/icons/closeBlack.png";
+import { burgerBlack, closeBlack } from "../assets/icons";
+
 import { useState } from "react";
 
 const Nav = () => {

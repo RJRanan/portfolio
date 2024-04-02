@@ -91,4 +91,24 @@ export const info = [
   },
 ];
 
-export const projects = [];
+export const projects = [
+  {
+    id: "0",
+    title: "Personal Portfolio",
+    stacks: ["React", "Tailwind CSS"],
+    info: "My personal portfolio designed using Figma and built with React  and Tailwind CSS",
+    websiteLink: "",
+    githubLink: "",
+    imgURL: "",
+  },
+
+  {
+    id: "1",
+    title: "Simon Game",
+    stacks: ["HTML", "CSS", "JavaScript", "jQuery"],
+    info: "Simon Game is a classic memory game where players need to remember and repeat a sequence of colors. This project is a web-based implementation of the Simon game using HTML, CSS, JavaScript, and jQuery.",
+    websiteLink: "",
+    githubLink: "",
+    imgURL: "",
+  },
+];

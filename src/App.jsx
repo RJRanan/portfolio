@@ -2,6 +2,7 @@
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
+import Projects from "./sections/PersonalProjects";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -20,6 +21,10 @@ function App() {
 
         <section className="py-10 px-4   pt-10 ">
           <About />
+        </section>
+
+        <section className="py-10 px-4   pt-10 ">
+          <Projects />
         </section>
       </main>
     </>

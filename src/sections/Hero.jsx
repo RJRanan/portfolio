@@ -1,8 +1,6 @@
 import profile from "../assets/images/me.jpg";
 import Greeting from "../scripts/Greeting";
-import emailWhite from "../assets/icons/emailWhite.png";
-import githubWhite from "../assets/icons/githubWhite.png";
-import linkedinWhite from "../assets/icons/linkedinWhite.png";
+import { emailWhite, githubWhite, linkedinWhite } from "../assets/icons";
 
 const Hero = () => {
   return (
@@ -87,15 +85,14 @@ const Hero = () => {
 
       <div className="flex flex-col justify-center  sm:items-start gap-4 w-full max-w-[494px]">
         {/* introduction */}
-        <div className="text-justify sm:text-[17px] text-base tracking-wide font-poppins">
-          <p className="leading-6">
-            {'{"'}Hi, I&apos;m{" "}
+        <div className="tracking-wide mobile:text-base font-poppins text-justify text-[14px]">
+          <p className="leading-8">
+            Hi, I&apos;m{" "}
             <span className="text-[#627254] font-bold">Renz Jestoni Ranan</span>{" "}
-            a Computer Science graduate from the Philippines. Since the time I
-            was introduced in Web Development, I&apos;ve been excited to learn
-            more about it. I&apos;m really keen on understanding it better and
-            getting better at it.
-            {'"}'}
+            a Computer Science graduate from the Philippines. Ever since I
+            delved into Web Development, I&apos;ve been eager to expand my
+            knowledge and skills in this field. My enthusiasm drives me to
+            continuously learn and improve.
           </p>
         </div>
       </div>
