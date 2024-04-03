@@ -32,7 +32,7 @@ const ProjectCard = ({
             {info}
           </div>
           <div className="flex gap-4">
-            <button className="bg-[#363636] mobile:px-3 px-4 py-[6px] -z-30 rounded-full flex flex-row items-center gap-3 text-white text-sm font-poppins font-light">
+            <button className="bg-[#363636] mobile:px-3 px-4 py-[6px]  rounded-full flex flex-row items-center gap-3 text-white text-sm font-poppins font-light">
               <a
                 href={websiteLink}
                 className="text-white flex  items-center gap-2 "
@@ -41,7 +41,7 @@ const ProjectCard = ({
                 Live Demo
               </a>
             </button>
-            <button className="bg-[#363636] mobile:px-4 px-6 py-[6px] -z-30 rounded-full flex flex-row items-center gap-3 text-white text-sm font-poppins font-light">
+            <button className="bg-[#363636] mobile:px-4 px-6 py-[6px] rounded-full flex flex-row items-center gap-3 text-white text-sm font-poppins font-light">
               <a href={githubLink} className="text-white">
                 GitHub
               </a>
