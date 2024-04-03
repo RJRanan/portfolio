@@ -88,7 +88,7 @@ export const info = [
       "Cooking",
       "Photography",
       "Tv-series",
-      "Podcast",
+      "1Podcast",
     ],
   },
 ];
@@ -100,7 +100,7 @@ export const projects = [
     stacks: ["React", "Tailwind CSS"],
     info: "My personal portfolio designed using Figma and built with React  and Tailwind CSS",
     websiteLink: "https://renzjestoniranan.vercel.app/",
-    githubLink: "",
+    githubLink: "https://github.com/RJRanan/portfolio",
     imgURL: portfolio,
   },
 
@@ -109,8 +109,8 @@ export const projects = [
     title: "Simon Game",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery"],
     info: "Simon Game is a classic memory game where players need to remember and repeat a sequence of colors. This project is a web-based implementation of the Simon game using HTML, CSS, JavaScript, and jQuery.",
-    websiteLink: "",
-    githubLink: "",
+    websiteLink: "https://simon-game-ashy-three.vercel.app/",
+    githubLink: "https://github.com/RJRanan/Simon-Game",
     imgURL: simon,
   },
 ];
