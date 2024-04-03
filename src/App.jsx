@@ -23,6 +23,8 @@ function App() {
           <About />
         </section>
 
+        <hr className="" />
+
         <section className="py-10 px-4   pt-10 ">
           <Projects />
         </section>

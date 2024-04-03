@@ -1,3 +1,5 @@
+import { portfolio, simon } from "../assets/images";
+
 export const navLinks = [
   {
     id: "0. ",
@@ -97,9 +99,9 @@ export const projects = [
     title: "Personal Portfolio",
     stacks: ["React", "Tailwind CSS"],
     info: "My personal portfolio designed using Figma and built with React  and Tailwind CSS",
-    websiteLink: "",
+    websiteLink: "https://renzjestoniranan.vercel.app/",
     githubLink: "",
-    imgURL: "",
+    imgURL: portfolio,
   },
 
   {
@@ -109,6 +111,6 @@ export const projects = [
     info: "Simon Game is a classic memory game where players need to remember and repeat a sequence of colors. This project is a web-based implementation of the Simon game using HTML, CSS, JavaScript, and jQuery.",
     websiteLink: "",
     githubLink: "",
-    imgURL: "",
+    imgURL: simon,
   },
 ];
