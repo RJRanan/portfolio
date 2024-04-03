@@ -3,7 +3,7 @@ import { projects } from "../constants/";
 
 const PersonalProjects = () => {
   return (
-    <div className=" w-full  md:max-w-2xl my-12 mx-auto  flex items-center justify-center">
+    <div className=" w-full  md:max-w-2xl my-12 mx-auto -z-20  flex items-center justify-center">
       <div className="flex flex-col  w-full max-w-[494px]">
         <h1 className="text-3xl font-bold">Projects 💻</h1>
         <div>

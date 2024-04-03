@@ -28,7 +28,7 @@ const ProjectCard = ({
               </div>
             ))}
           </div>
-          <div className=" tracking-wide mobile:text-base font-poppins text-justify text-[14px]	">
+          <div className=" tracking-wide mobile:text-base font-poppins text-wrap text-justify text-[14px]	">
             {info}
           </div>
           <div className="flex gap-4">
