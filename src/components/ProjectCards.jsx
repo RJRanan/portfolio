@@ -8,11 +8,11 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="w-full  md:max-w-2xl my-12 mx-auto flex   items-center justify-center">
-      <div className="border-2 border-black grid md:grid-cols-2 grid-cols-1   py-4 px-2  justify-center rounded-3xl md w-full max-w-[494px] ">
+      <div className="border-2 border-black grid md:grid-cols-2 grid-cols-1   py-4 px-2  justify-center rounded-3xl  w-full max-w-[494px] ">
         <div className="flex items-center justify-center px-2  ">
           <img
             src={imgURL}
-            className=" h-[200px] w-full object-fill rounded-lg hover:scale-110 transition-all duration-300  "
+            className=" md:h-[200px]   w-full object-fill rounded-lg hover:scale-110 transition-all duration-300  "
             alt=""
           />
         </div>
