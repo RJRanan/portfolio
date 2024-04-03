@@ -31,13 +31,13 @@ const ProjectCard = ({
           <div className=" tracking-wide mobile:text-base font-poppins text-wrap text-justify text-[14px]	">
             {info}
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-4 -z-30">
             <button className="bg-[#363636] mobile:px-3 px-4 py-[6px]  rounded-full flex flex-row items-center gap-3 text-white text-sm font-poppins font-light">
               <a
                 href={websiteLink}
                 className="text-white flex  items-center gap-2 "
               >
-                <div className="h-2 w-2 rounded-full bg-[#23BB32] animate-pulse"></div>{" "}
+                <div className="h-2 w-2 rounded-full  bg-[#23BB32] animate-pulse"></div>{" "}
                 Live Demo
               </a>
             </button>
