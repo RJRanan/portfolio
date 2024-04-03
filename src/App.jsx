@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/PersonalProjects";
+import Footer from "./sections/Footer";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -27,6 +28,12 @@ function App() {
 
         <section className="py-10 px-4   pt-10 ">
           <Projects />
+        </section>
+
+        <hr className="" />
+
+        <section className="py-10 px-4   pt-10 ">
+          <Footer />
         </section>
       </main>
     </>
