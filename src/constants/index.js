@@ -88,7 +88,7 @@ export const info = [
       "Cooking",
       "Photography",
       "Tv-series",
-      "1Podcast",
+      "Podcast",
     ],
   },
 ];
