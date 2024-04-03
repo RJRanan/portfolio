@@ -87,8 +87,8 @@ export const info = [
       "Walking",
       "Cooking",
       "Photography",
-      "Watching Tv-series",
-      "Listening Podcast",
+      "Tv-series",
+      "Podcast",
     ],
   },
 ];
