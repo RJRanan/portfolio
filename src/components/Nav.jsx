@@ -8,15 +8,15 @@ const Nav = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full fixed top-0  left-0  flex justify-center items-baseline  md:bg-opacity-50 bg-white backdrop-blur-md shadow-md">
-      <div className="md:flex max-w-[800px]	w-full items-center flex justify-between py-4 md:px-10 px-12 gap-3">
+    <header className="w-full fixed top-0  left-0  flex justify-center items-baseline  md:bg-opacity-50 z-30 bg-white backdrop-blur-md shadow-md">
+      <div className="md:flex max-w-[800px]	w-full items-center flex justify-between z-50 py-4 md:px-10 px-12 gap-3">
         {/* logo */}
         <div className="flex items-center">
           <a href="/" className="">
             <h1
               className={`font-bold md:text-3xl   text-2xl mr-4 font-arvo  ${
                 open
-                  ? "absolute top-20 left-0 w-full md:w-auto md:static md:z-auto z-50 shadow-md"
+                  ? "absolute top-20 left-0 w-full md:w-auto md:static  shadow-md"
                   : "hidden md:flex"
               } transition-all duration-500 ease-in `}
             >
@@ -30,7 +30,7 @@ const Nav = () => {
           <ul
             className={`md:flex gap-4 md:items-center md:justify-center md:pb-0  pb-2  ${
               open
-                ? "absolute top-[73px] left-0 bg-white w-full sm:pl-0  pl-5 md:w-auto md:static md:z-auto z-50 shadow-md"
+                ? "absolute top-[73px] left-0 bg-white w-full sm:pl-0  pl-5 md:w-auto md:static md:z-auto z-[100] shadow-md"
                 : "hidden md:flex "
             } transition-all duration-500 ease-in `}
           >

@@ -14,6 +14,9 @@ export default {
       screens: {
         mobile: "375px",
       },
+      zIndex: {
+        100: "100",
+      },
     },
   },
   plugins: [],
