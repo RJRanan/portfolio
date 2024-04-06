@@ -4,6 +4,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/PersonalProjects";
 import Footer from "./sections/Footer";
+import Contact from "./sections/Contact";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -14,23 +15,37 @@ function App() {
         <section className="px-4">
           <Nav />
         </section>
-        <section className="py-10 px-4   pt-24">
+        <section id="home" className="py-10 px-4   pt-24">
           <Hero />
         </section>
 
-        <hr className="" />
+        <div className="flex items-center justify-center">
+          <hr className=" w-full max-w-[494px]" />
+        </div>
 
-        <section className="py-10 px-4   pt-10 ">
+        <section id="about" className="py-10 px-4   pt-10 ">
           <About />
         </section>
 
-        <hr className="" />
+        <div className="flex items-center justify-center">
+          <hr className=" w-full max-w-[494px]" />
+        </div>
 
-        <section className="py-10 px-4   pt-10 ">
+        <section id="projects" className="py-10 px-4   pt-10 ">
           <Projects />
         </section>
 
-        <hr className="" />
+        <div className="flex items-center justify-center">
+          <hr className=" w-full max-w-[494px]" />
+        </div>
+
+        <section id="contact" className="py-10 px-4   pt-10 ">
+          <Contact />
+        </section>
+
+        <div className="flex items-center justify-center">
+          <hr className=" w-full max-w-[494px]" />
+        </div>
 
         <section className="py-10 px-4   pt-10 ">
           <Footer />

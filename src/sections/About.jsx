@@ -6,7 +6,7 @@ const About = () => {
     <div className="flex justify-center items-center mx-auto my-12   w-full  md:max-w-2xl">
       <div className="flex flex-col    w-full max-w-[494px] mt-5">
         <div>
-          <h1 className="text-3xl font-bold">About Me 👨🏻‍💻</h1>
+          <h1 className="text-3xl font-bold ">About Me 👨🏻‍💻</h1>
         </div>
         <div className="flex flex-col gap-4 mt-10 ">
           {info.map((link) => (

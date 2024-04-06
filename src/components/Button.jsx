@@ -1,4 +1,3 @@
-// Customizable Button component
 const Button = ({
   label,
   labelColor,
@@ -9,14 +8,19 @@ const Button = ({
   paddingX,
   animation,
   onClick,
+  url,
 }) => {
+  // Default padding values
+  const defaultPaddingY = paddingY || "py-[9px]";
+  const defaultPaddingX = paddingX || "px-[26px]";
+
   return (
     <button
       type="button"
       onClick={onClick}
-      className={`${labelColor} ${bgColor} ${bgColor} ${border}  ${animation} ${labelThick} flex font-poppins items-center  text-base  border border-1 rounded-lg ${
-        paddingY ? paddingY : "py-[9px]"
-      } ${paddingX ? paddingX : "px-[26px]"}  `}
+      className={`flex items-center text-base font-poppins border border-1 rounded-lg ${labelColor} ${bgColor} ${border} ${animation} ${labelThick} ${defaultPaddingY} ${defaultPaddingX}`}
+      // Conditionally add href if url is provided
+      {...(url && { href: url })}
     >
       {label}
     </button>

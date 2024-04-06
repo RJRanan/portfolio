@@ -52,3 +52,18 @@
     background-color: #f9f9f9;
   }
 }
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 43%;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #627254 transparent;
+}

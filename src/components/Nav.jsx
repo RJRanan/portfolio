@@ -1,6 +1,5 @@
 import { navLinks } from "../constants";
-import Buttons from "./Button";
-import { burgerBlack, closeBlack } from "../assets/icons";
+import { burgerBlack, closeBlack, cat } from "../assets/icons";
 
 import { useState } from "react";
 
@@ -14,7 +13,7 @@ const Nav = () => {
         <div className="flex items-center">
           <a href="/" className="">
             <h1
-              className={`font-bold md:text-3xl   text-2xl mr-4 font-arvo  ${
+              className={`font-bold md:text-3xl hover:animate-wiggle   text-2xl mr-4 font-arvo  ${
                 open
                   ? "absolute top-20 left-0 w-full md:w-auto md:static  shadow-md"
                   : "hidden md:flex"
@@ -30,37 +29,41 @@ const Nav = () => {
           <ul
             className={`md:flex gap-4 md:items-center md:justify-center md:pb-0  pb-2  ${
               open
-                ? "absolute top-[73px] left-0 bg-white w-full sm:pl-0  pl-5 md:w-auto md:static md:z-auto z-[100] shadow-md"
+                ? "absolute top-[73px] left-0 bg-white w-full  tablet:pl-0  pl-4 md:w-auto md:static md:z-auto z-[100] shadow-md"
                 : "hidden md:flex "
             } transition-all duration-500 ease-in `}
           >
             {navLinks.map((link) => (
               <li
                 key={link.label}
-                className="md:text-base font-poppins font-bold md:my-0 my-7 flex "
+                className="md:text-base font-poppins tracking-wider md:my-0 my-7 flex "
               >
                 <a
                   key={link.id}
                   href={link.href}
                   rel={link.rel}
                   target={link.target}
-                  className="hover:text-[#627254] hover:italic duration-300 flex"
+                  className="hover:text-[#627254] hover:scale-75   duration-300 flex"
                 >
-                  {"{"}
                   {link.label}
-                  {"}  "}
                 </a>
               </li>
             ))}
           </ul>
         </div>
         <div className="flex">
-          <Buttons
-            label={"☀️"}
-            bgColor={"bg-transparent"}
-            border={"border-0"}
-            paddingX={"px-2"}
-          />
+          <div className="relative tooltip md:pr-0 pr-5">
+            <img
+              src={cat}
+              alt="dark mode"
+              width={25}
+              height={25}
+              className="hover:cursor-not-allowed hover:animate-wiggle"
+            />
+            <span className="invisible opacity-0 transition-opacity bg-[#627254] text-white text-wrap font-poppins text-sm font-base  tracking-tighter text-center py-2 px-3.5 md:w-[260px] w-[150px] rounded-lg tooltip-text absolute z-10 md:-right-32 -right-12 top-11 -ml-14">
+              Dark mode under development 👨‍💻
+            </span>
+          </div>
           {/* Burger menu */}
           <div
             onClick={() => setOpen(!open)}
@@ -76,15 +79,9 @@ const Nav = () => {
 
         {/* Connect button */}
         <div className="hidden md:flex gap-2 items-center cursor-pointer ">
-          <Buttons
-            label={"let's connect"}
-            labelColor={"text-white"}
-            bgColor={"bg-black"}
-            border={"border-black"}
-            paddingX={"px-2"}
-            paddingY={"py-2"}
-            animation={"hover:ease-out duration:-200"}
-          />
+          <button className="bg-black text-white px-2 py-2 flex items-center text-base font-poppins border border-1 rounded-lg transition hover:scale-105  hover:duration-500 ">
+            <a href="mailto:renzjranan@gmail.com">Let&apos;s Connect!</a>
+          </button>
         </div>
       </div>
     </header>

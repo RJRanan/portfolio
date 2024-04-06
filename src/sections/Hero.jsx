@@ -11,7 +11,7 @@ const Hero = () => {
           {/* Availability Bar */}
           <div className="flex items-start  mb-3 ">
             <div className="bg-[#363636] mobile:px-4 px-3 py-[6px] -z-30 rounded-full flex flex-row items-center gap-3 text-white text-sm font-poppins font-light ">
-              <div className="h-2 w-2 rounded-full bg-[#23BB32] animate-pulse"></div>{" "}
+              <div className="h-1 w-1 rounded-full bg-[#23BB32] animate-ping"></div>{" "}
               <span className="">Available</span>
             </div>
           </div>
@@ -85,7 +85,7 @@ const Hero = () => {
 
       <div className="flex flex-col justify-center  sm:items-start gap-4 w-full max-w-[494px]">
         {/* introduction */}
-        <div className="tracking-wide mobile:text-base font-poppins text-justify text-[14px]">
+        <div className="tracking-wide mobile:text-base text-[14px] font-poppins text-justify ">
           <p className="leading-8">
             Hi, I&apos;m{" "}
             <span className="text-[#627254] font-bold">Renz Jestoni Ranan</span>{" "}

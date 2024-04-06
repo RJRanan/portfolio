@@ -9,6 +9,7 @@ import githubBlack from "../icons/github-black.png";
 import linkedinWhite from "../icons/linkedin-white.png";
 import linkedinBlack from "../icons/linkedin-black.png";
 import subtractBlack from "../icons/subtract-black.png";
+import cat from "../icons/cat.png";
 
 export {
   burgerBlack,
@@ -22,4 +23,5 @@ export {
   emailBlack,
   githubBlack,
   linkedinBlack,
+  cat,
 };

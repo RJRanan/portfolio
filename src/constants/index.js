@@ -2,23 +2,23 @@ import { portfolio, simon } from "../assets/images";
 
 export const navLinks = [
   {
-    id: "0. ",
+    id: "0",
     href: "#home",
     label: "home",
   },
 
   {
-    id: "1. ",
+    id: "1",
     href: "#about",
     label: "about",
   },
   {
-    id: "2. ",
+    id: "2",
     href: "#projects",
     label: "projects",
   },
   {
-    id: "3. ",
+    id: "3",
     href: "#contact",
     label: "contact",
   },
