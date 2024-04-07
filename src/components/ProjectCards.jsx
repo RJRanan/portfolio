@@ -1,5 +1,3 @@
-import { subtractBlack } from "../assets/icons";
-
 const ProjectCard = ({
   title,
   stacks,
