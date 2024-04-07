@@ -1,3 +1,5 @@
+import { subtractBlack } from "../assets/icons";
+
 const ProjectCard = ({
   title,
   stacks,
@@ -8,7 +10,7 @@ const ProjectCard = ({
 }) => {
   return (
     <div className="w-full  md:max-w-2xl my-12 mx-auto flex   items-center justify-center ">
-      <div className="border-2 border-black grid md:grid-cols-2 grid-cols-1   py-4 px-2  justify-center rounded-3xl  w-full max-w-[494px] ">
+      <div className="border shadow-md   grid md:grid-cols-2 grid-cols-1  hover:scale-105 hover:duration-500 duration-500  py-4 px-2  justify-center rounded-3xl  w-full max-w-[494px] ">
         <div className="flex items-center justify-center px-2  ">
           <img
             src={imgURL}
@@ -17,12 +19,12 @@ const ProjectCard = ({
           />
         </div>
         <div className="py-2 gap-4 flex flex-col px-3">
-          <div className="text-2xl">{title}</div>
+          <div className="text-xl font-bold">{title}</div>
           <div className="flex flex-row flex-wrap ">
             {stacks.map((stack) => (
               <div
                 key={stack}
-                className="mr-2 mb-2 px-3 lg:py-[2px] py-1 border md:text-sm text-xs hover:animate-wiggle   font-poppins border-opacity-50 rounded-2xl border-black font-semibold"
+                className="mr-2 mb-2 px-3 lg:py-[2px] py-1 border md:text-sm text-xs hover:animate-wiggle   font-poppins border-opacity-50 rounded-2xl border-black "
               >
                 {stack}
               </div>

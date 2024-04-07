@@ -83,7 +83,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center  sm:items-start gap-4 w-full max-w-[494px]">
+      <div className="flex flex-col justify-center sm:items-start gap-4 w-full max-w-[494px]">
         {/* introduction */}
         <div className="tracking-wide mobile:text-base text-[14px] font-poppins text-justify ">
           <p className="leading-8">
