@@ -13,11 +13,7 @@ const Nav = () => {
         <div className="flex items-center">
           <a href="/" className="">
             <h1
-              className={`font-bold md:text-3xl hover:animate-wiggle   text-2xl mr-4 font-arvo  ${
-                open
-                  ? "absolute top-20 left-0 w-full md:w-auto md:static  shadow-md"
-                  : "hidden md:flex"
-              } transition-all duration-500 ease-in `}
+              className={`font-bold md:text-3xl hover:animate-wiggle   text-2xl pl-0  font-arvo `}
             >
               {"<"}RJRR {"/ >"}
             </h1>
@@ -29,7 +25,7 @@ const Nav = () => {
           <ul
             className={`md:flex gap-4 md:items-center md:justify-center md:pb-0  pb-2  ${
               open
-                ? "absolute top-[55px] left-0 bg-white w-full  tablet:pl-0  pl-4 md:w-auto md:static md:z-auto z-[100] shadow-md"
+                ? "absolute top-[55px] md:h-0 h-[800px] left-0 bg-white w-full  tablet:pl-0 text-2xl pt-8 pl-8 md:w-auto md:static md:z-auto z-[100] md:duration-500 duration-700 ease-in shadow-md"
                 : "hidden md:flex "
             } transition-all duration-500 ease-in `}
           >
@@ -52,7 +48,7 @@ const Nav = () => {
           </ul>
         </div>
         <div className="flex">
-          <div className="relative tooltip md:pr-0 pr-5">
+          <div className="relative tooltip md:pr-0 pr-2">
             <img
               src={cat}
               alt="dark mode"
