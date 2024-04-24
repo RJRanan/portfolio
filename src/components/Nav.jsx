@@ -1,5 +1,5 @@
 import { navLinks } from "../constants";
-import { burgerBlack, closeBlack, cat } from "../assets/icons";
+import { burgerBlack, closeBlack } from "../assets/icons";
 
 import { useState } from "react";
 
@@ -8,7 +8,7 @@ const Nav = () => {
 
   return (
     <header className="w-full fixed top-0  left-0  flex justify-center items-baseline  md:bg-opacity-50 z-30 bg-white backdrop-blur-md shadow-md">
-      <div className="md:flex max-w-[800px]	w-full items-center flex justify-between z-50 py-4 md:px-10 px-12 gap-3">
+      <div className="md:flex max-w-[800px]	w-full items-center flex justify-between z-50 py-4 md:px-10 px-4 gap-3">
         {/* logo */}
         <div className="flex items-center">
           <a href="/" className="">
@@ -48,7 +48,7 @@ const Nav = () => {
           </ul>
         </div>
         <div className="flex">
-          <div className="relative tooltip md:pr-0 pr-2">
+          {/* <div className="relative tooltip md:pr-0 pr-2">
             <img
               src={cat}
               alt="dark mode"
@@ -59,7 +59,7 @@ const Nav = () => {
             <span className="invisible opacity-0 transition-opacity bg-[#627254] text-white text-wrap font-poppins text-sm font-base  tracking-tighter text-center py-2 px-3.5 md:w-[260px] w-[150px] rounded-lg tooltip-text absolute z-10 md:-right-32 -right-12 top-11 -ml-14">
               Dark mode under development 👨‍💻
             </span>
-          </div>
+          </div> */}
           {/* Burger menu */}
           <div
             onClick={() => setOpen(!open)}
