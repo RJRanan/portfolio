@@ -8,7 +8,7 @@ const Nav = () => {
 
   return (
     <header className="w-full fixed top-0  left-0  flex justify-center items-baseline  md:bg-opacity-50 z-30 bg-white backdrop-blur-md shadow-md">
-      <div className="md:flex max-w-[800px]	w-full items-center flex justify-between z-50 py-4 md:px-10 px-4 gap-3">
+      <div className="md:flex max-w-[800px]	w-full items-center flex justify-between z-50 py-4 md:px-10 px-7 gap-3">
         {/* logo */}
         <div className="flex items-center">
           <a href="/" className="">
