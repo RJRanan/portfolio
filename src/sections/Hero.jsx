@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="flex gap-2 my-8">
             <button
               className="flex items-center justify-between
-             bg-[#363636] border rounded-full mobile:px-3 mobile:py-3 px-3 py-1 mobile:text-xs text-[10px] text-white font-poppins ease-in duration-300 hover:animate-bounce hover:duration-200"
+             bg-[#363636] hover:bg-[#4e4e4e] border rounded-full mobile:px-3 mobile:py-3 px-3 py-1 mobile:text-xs text-[10px] text-white font-poppins "
             >
               <a
                 href="https://github.com/RJRanan"
@@ -41,7 +41,7 @@ const Hero = () => {
                 GitHub
               </a>
             </button>
-            <button className="flex items-center justify-center bg-[#363636] border rounded-full mobile:px-3 mobile:py-3 px-3 py-1 mobile:text-xs text-[10px] text-white font-poppins ease-in duration-300 hover:animate-bounce hover:duration-200">
+            <button className="flex items-center justify-center bg-[#363636] hover:bg-[#4e4e4e] border rounded-full mobile:px-3 mobile:py-3 px-3 py-1 mobile:text-xs text-[10px] text-white font-poppins ">
               <a
                 href="https://www.linkedin.com/in/rjranan/"
                 target="_blank
@@ -57,7 +57,7 @@ const Hero = () => {
                 LinkedIn
               </a>
             </button>
-            <button className="flex items-center justify-center bg-[#363636] border rounded-full mobile:px-3 mobile:py-3 px-3 py-1 mobile:text-xs text-[10px] text-white font-poppins ease-in duration-300 hover:animate-bounce hover:duration-200">
+            <button className="flex items-center justify-center bg-[#363636] hover:bg-[#4e4e4e] border rounded-full mobile:px-3 mobile:py-3 px-3 py-1 mobile:text-xs text-[10px] text-white font-poppins ">
               <a
                 href="mailto:renzjranan@gmail.com"
                 target="_blank"

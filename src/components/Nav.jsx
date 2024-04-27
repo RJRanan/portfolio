@@ -8,7 +8,7 @@ const Nav = () => {
 
   return (
     <header className="w-full fixed top-0  left-0  flex justify-center items-baseline  md:bg-opacity-50 z-30 bg-white backdrop-blur-md shadow-md">
-      <div className="md:flex max-w-[800px]	w-full items-center flex justify-between z-50 py-4 md:px-10 px-7 gap-3">
+      <div className="md:flex max-w-[800px]	w-full items-between flex justify-between z-50 py-4 md:px-10 px-7 gap-3">
         {/* logo */}
         <div className="flex items-center">
           <a href="/" className="">
@@ -47,7 +47,7 @@ const Nav = () => {
             ))}
           </ul>
         </div>
-        <div className="flex">
+        <div className="flex md:hidden">
           {/* <div className="relative tooltip md:pr-0 pr-2">
             <img
               src={cat}
@@ -63,10 +63,10 @@ const Nav = () => {
           {/* Burger menu */}
           <div
             onClick={() => setOpen(!open)}
-            className="cursor-pointer md:hidden flex items-center gap-2"
+            className="cursor-pointer md:hidden flex items-center gap-2 duration-500 ease-in-out"
           >
             <img
-              className="h-6 w-6"
+              className="h-6 w-6 duration-500 ease-in-out"
               alt="menu"
               src={open ? closeBlack : burgerBlack}
             />
