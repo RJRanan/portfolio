@@ -34,6 +34,17 @@ const About = () => {
                 {link.position}
               </p>
 
+              {link.id === "0" && (
+                <div className="grid grid-cols-1 grid-rows-1 mt-8 tracking-wide mobile:text-base font-poppins text-justify text-[14px] ease-in duration-300">
+                  {link.bullet.map((bullet, index) => (
+                    <div key={index} className="leading-8 ">
+                      <img src={subtractBlack} className="h-5 w-4" alt="" />
+                      {bullet}
+                    </div>
+                  ))}
+                </div>
+              )}
+
               {link.id === "1" && (
                 <div className="grid grid-cols-1 grid-rows-1 mt-8 tracking-wide mobile:text-base font-poppins text-justify text-[14px] ease-in duration-300">
                   {link.content.map((content, index) => (
@@ -47,11 +58,11 @@ const About = () => {
 
               {link.id === "3" && (
                 <div className="grid grid-cols-3 gap-3 mobile:text-base text-[14px] ease-in duration-300">
-                  {link.interest.map((hobby, index) => (
+                  {link.interest.map((interest, index) => (
                     <div key={index} className="gap-2">
                       {" "}
                       <img src={subtractBlack} className="h-5 w-4" alt="" />
-                      {hobby}
+                      {interest}
                     </div>
                   ))}
                 </div>

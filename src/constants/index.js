@@ -33,8 +33,8 @@ export const info = [
     course: "< B.S Computer Science />",
     date: "2019 - 2023",
     bullet: [
-      // "Magna Cum Laude",
-      // "President Lister",
+      "Magna Cum Laude",
+      "President Lister",
       "Thesis Project: Eterna Garden: The Vegetables & Fruits Monster World",
     ],
   },
@@ -42,15 +42,30 @@ export const info = [
   {
     id: "1",
     title: "Experience 💼",
-    info: "Leveraged a versatile skillset to contribute to both front-end and back-end website development, utilizing a dynamic tech stack inclusive of Java",
+    info: "",
+    company: "Cardinal Health International Philippines",
+    position: "< Analyst, Cloud Engineering />",
+    date: "10/2023 - 01/2024",
+    content: [
+      "Support of system utility software, application, documentation, third party software and compliance.",
+      "Raise and respond to multiple Change Management and Incident tickets appropriately.",
+      "Work with Vendors to understand and resolve complex issues.",
+    ],
+  },
+
+  {
+    id: "1",
+    title: "",
+    info: "",
     company: "Podcast Network Asia",
     position: "< Developer Intern />",
     date: "08/2022 - 10/2022",
     content: [
-      "Designed a user-friendly subscription page and seamlessly integrated essential web API connections for enhanced functionality",
-      "Leveraged a versatile skillset to contribute to both front-end and back-end website development, utilizing a dynamic tech stack inclusive of JavaScript, React, Tailwind CSS and Postman API.",
-      "Implemented front-end features to improve user experience.",
-      "Developed interactive elements for the user interface, including buttons, forms, menus, and navigation bars.",
+      "Set up and manage Content Management System (CMS) websites, with extensive experience in platforms such as WordPress and OpenCart, ensuring they meet client specifications and industry standards.",
+      "Utilize source code management tools like Git to maintain version control, collaborate with team members, and streamline the development process.",
+      "Customize existing website to align with client requirements, and perform comprehensive bug fixes to maintain site integrity and performance.",
+      "Convert PSD design files into responsive and visually appealing HTML/CSS themes, ensuring high fidelity to the original design and cross-browser compatibility.",
+      "Conduct thoroguh testing of websites, including functionality, usability, and compatibility testing, to identify and resolve issues, ensuring a seamless user experience.",
     ],
   },
   {
@@ -72,6 +87,9 @@ export const info = [
       "Linux",
       "GitHub",
       "Git",
+      "GCP",
+      "AWS EC2",
+      "ServiceNow",
     ],
   },
 
