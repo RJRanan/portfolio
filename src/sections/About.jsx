@@ -16,14 +16,14 @@ const About = () => {
               </h2>
 
               <div className="  ">
-                <div className="flex flex-row justify-between item-center">
-                  <p className="text-justify sm:text-[18px] text-[15px] tracking-tight font-semibold leading-7 font-poppins ease-in duration-300">
+                <div className="flex flex-row justify-between item-center gap-3">
+                  <p className=" sm:text-[18px] text-[18px] tracking-tight text-balance font-semibold leading-7 font-poppins ease-in duration-300">
                     {" "}
                     {link.school}
                     {link.company}
                   </p>
-                  <div className="flex items-end justify-end">
-                    <p className="mt-2 sm:text-base text-[14px] tracking-tighter flex items-start justify-start  ease-in duration-300">
+                  <div className="flex items-center justify-center">
+                    <p className=" sm:text-base text-[14px] tracking-tighter text-balance  flex items-start justify-start  ease-in duration-300">
                       {link.date}
                     </p>
                   </div>
