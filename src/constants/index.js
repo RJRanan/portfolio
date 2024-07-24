@@ -1,4 +1,4 @@
-import { portfolio, simon } from "../assets/images";
+import { portfolio, simon, qrcode } from "../assets/images";
 
 export const navLinks = [
   {
@@ -115,7 +115,7 @@ export const projects = [
   {
     id: "0",
     title: "Personal Portfolio",
-    stacks: ["React", "Tailwind CSS"],
+    stacks: ["React", "Tailwind CSS", "JavaScript"],
     info: "My personal portfolio designed using Figma and built with React  and Tailwind CSS",
     websiteLink: "https://renzjestoniranan.vercel.app/",
     githubLink: "https://github.com/RJRanan/portfolio",
@@ -130,5 +130,14 @@ export const projects = [
     websiteLink: "https://simon-game-ashy-three.vercel.app/",
     githubLink: "https://github.com/RJRanan/Simon-Game",
     imgURL: simon,
+  },
+  {
+    id: "2",
+    title: "QR Code Generator",
+    stacks: ["Node.js"],
+    info: "This Node.js application allows you to generate a QR code from a URL provided by the user, with all actions being performed through the console. The QR code will be saved as an image file.",
+    websiteLink: "",
+    githubLink: "https://github.com/RJRanan/QR-Code-generator/tree/main",
+    imgURL: qrcode,
   },
 ];
