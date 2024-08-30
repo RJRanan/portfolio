@@ -39,23 +39,39 @@ export const info = [
     ],
   },
 
-  {
-    id: "1",
-    title: "Experience 💼",
-    info: "",
-    company: "Cardinal Health International Philippines",
-    position: "< Analyst, Cloud Engineering />",
-    date: "10/2023 - 01/2024",
-    content: [
-      "Support of system utility software, application, documentation, third party software and compliance.",
-      "Raise and respond to multiple Change Management and Incident tickets appropriately.",
-      "Work with Vendors to understand and resolve complex issues.",
-    ],
-  },
+  // {
+  //   id: "1",
+  //   title: "Experience 💼",
+  //   info: "",
+  //   company: "Cardinal Health International Philippines",
+  //   position: "< Analyst, Cloud Engineering />",
+  //   date: "10/2023 - 01/2024",
+  //   content: [
+  //     "Support of system utility software, application, documentation, third party software and compliance.",
+  //     "Raise and respond to multiple Change Management and Incident tickets appropriately.",
+  //     "Work with Vendors to understand and resolve complex issues.",
+  //   ],
+  // },
+
+  // {
+  //   id: "1",
+  //   title: "",
+  //   info: "",
+  //   company: "Podcast Network Asia",
+  //   position: "< Developer Intern />",
+  //   date: "08/2022 - 10/2022",
+  //   content: [
+  //     "Set up and manage Content Management System (CMS) websites, with extensive experience in platforms such as WordPress and OpenCart, ensuring they meet client specifications and industry standards.",
+  //     "Utilize source code management tools like Git to maintain version control, collaborate with team members, and streamline the development process.",
+  //     "Customize existing website to align with client requirements, and perform comprehensive bug fixes to maintain site integrity and performance.",
+  //     "Convert PSD design files into responsive and visually appealing HTML/CSS themes, ensuring high fidelity to the original design and cross-browser compatibility.",
+  //     "Conduct thoroguh testing of websites, including functionality, usability, and compatibility testing, to identify and resolve issues, ensuring a seamless user experience.",
+  //   ],
+  // },
 
   {
     id: "1",
-    title: "",
+    title: "Experience 💼",
     info: "",
     company: "Podcast Network Asia",
     position: "< Developer Intern />",
@@ -68,6 +84,32 @@ export const info = [
       "Conduct thoroguh testing of websites, including functionality, usability, and compatibility testing, to identify and resolve issues, ensuring a seamless user experience.",
     ],
   },
+
+  // {
+  //   id: "2",
+  //   title: "Skills 📚",
+  //   info: "",
+  //   skills: [
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "jQuery",
+  //     "React",
+  //     "Tailwind CSS",
+  //     "Bootstrap",
+  //     "Vite",
+  //     "Postman API",
+  //     "C#",
+  //     "Java",
+  //     "Linux",
+  //     "GitHub",
+  //     "Git",
+  //     "GCP",
+  //     "AWS EC2",
+  //     "ServiceNow",
+  //   ],
+  // },
+
   {
     id: "2",
     title: "Skills 📚",
@@ -87,9 +129,6 @@ export const info = [
       "Linux",
       "GitHub",
       "Git",
-      "GCP",
-      "AWS EC2",
-      "ServiceNow",
     ],
   },
 
