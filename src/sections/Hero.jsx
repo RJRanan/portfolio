@@ -1,4 +1,4 @@
-import profile from "../assets/images/me.jpg";
+import profile from "../assets/images/renz formal.jpg";
 import Greeting from "../scripts/Greeting";
 import { emailWhite, githubWhite, linkedinWhite } from "../assets/icons";
 
@@ -19,7 +19,7 @@ const Hero = () => {
             <Greeting />
             <p>I&apos;m Renz 👋🏻</p>
             <p className="text-[#627254] mobile:text-xl mt-4 text-base font-normal ease-in duration-300 ">
-              {"<"} Front - End Developer {"/>"}
+              {"<"} SAP ABAP Developer {"/>"}
             </p>
           </div>
           {/* socials */}
@@ -89,10 +89,11 @@ const Hero = () => {
           <p className="leading-8">
             Hi, I&apos;m{" "}
             <span className="text-[#627254] font-bold">Renz Jestoni Ranan</span>{" "}
-            a Computer Science graduate from the Philippines. Ever since I
-            delved into Web Development, I&apos;ve been eager to expand my
-            knowledge and skills in this field. My enthusiasm drives me to
-            continuously learn and improve.
+            a Computer Science graduate from the Philippines. Currently, I work
+            as an SAP ABAP Developer at PwC Southeast Asia Consulting. Since
+            starting my journey in development, I&apos;ve been eager to expand
+            my knowledge and skills in the field. My passion for learning drives
+            me to continuously grow and improve.
           </p>
         </div>
       </div>
